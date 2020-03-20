@@ -8,7 +8,6 @@ import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
-import org.springframework.beans.factory.annotation.Value;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +15,10 @@ import java.util.ResourceBundle;
 
 /**
  * <p>
- *     代码生成器
+ * 代码生成器
  * </p>
  */
 public class MpGenerator {
-
-    @Value("${spring:datasource:url}")
-    private static String url;
 
     public static void main(String[] args) throws InterruptedException {
 
